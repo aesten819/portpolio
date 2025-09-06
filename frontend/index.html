@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>주식 포트폴리오</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="page-header">
+            <h1>포트폴리오 v1</h1>
+            <a href="info.html" class="nav-btn">종목 정보 조회</a>
+        </header>
+        
+        <!-- 입력 폼 -->
+        <div class="input-form">
+            <input type="text" id="ticker-input" placeholder="종목코드 또는 종목명">
+            <select id="industry-select">
+                <option value="산업재">산업재</option>
+                <option value="소비재">소비재</option>
+                <option value="반도체">반도체</option>
+                <option value="바이오">바이오</option>
+                <option value="소프트웨어">소프트웨어</option>
+                <option value="기타">기타</option>
+            </select>
+            <input type="number" id="shares-input" placeholder="보유 수량" min="1">
+            <button id="add-btn">추가</button>
+        </div>
+
+        <!-- 총 평가금액 -->
+        <div class="summary-section">
+            <h2>총 평가금액: <span id="total-valuation-display">0원</span></h2>
+        </div>
+
+        <!-- 산업군 분류 탭 -->
+        <div class="filter-tabs">
+            <button class="tab-btn active" data-filter="전체">전체</button>
+            <button class="tab-btn" data-filter="산업재">산업재</button>
+            <button class="tab-btn" data-filter="소비재">소비재</button>
+            <button class="tab-btn" data-filter="반도체">반도체</button>
+            <button class="tab-btn" data-filter="바이오">바이오</button>
+            <button class="tab-btn" data-filter="소프트웨어">소프트웨어</button>
+            <button class="tab-btn" data-filter="기타">기타</button>
+        </div>
+
+        <!-- 포트폴리오 테이블 -->
+        <table id="portfolio-table">
+            <thead>
+                <tr>
+                    <th>종목명 (종목코드)</th>
+                    <th data-sort="industry">산업군 <span class="sort-arrow"></span></th>
+                    <th>현재가</th>
+                    <th data-sort="rate">등락률 (%) <span class="sort-arrow"></span></th>
+                    <th>보유 수량</th>
+                    <th data-sort="valuation">평가 금액 <span class="sort-arrow"></span></th>
+                    <th>삭제</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 주식 정보가 여기에 동적으로 추가됩니다. -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>

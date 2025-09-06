@@ -1,0 +1,3 @@
+flask
+pykrx
+flask-cors
