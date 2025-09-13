@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.page-header h1 {
+    margin: 0;
+    text-align: left;
+}
+
+.nav-btn {
+    padding: 10px 15px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+.nav-btn:hover {
+    background-color: #27ae60;
+}
+
+.input-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.input-form input, .input-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#ticker-input { width: 250px; }
+#shares-input { width: 100px; }
+
+#add-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#add-btn:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+.summary-section {
+    text-align: right;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+.summary-section h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#total-valuation-display {
+    color: #3498db;
+}
+
+.filter-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.tab-btn {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.tab-btn.active, .tab-btn:hover {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+#portfolio-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+#portfolio-table th, #portfolio-table td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+#portfolio-table th {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+#portfolio-table th[data-sort] {
+    cursor: pointer;
+    user-select: none;
+}
+
+.sort-arrow {
+    display: inline-block;
+    width: 1em;
+    text-align: center;
+    color: #ccc;
+}
+
+#portfolio-table th.sort-asc .sort-arrow::after {
+    content: ' ▲';
+    color: #333;
+}
+
+#portfolio-table th.sort-desc .sort-arrow::after {
+    content: ' ▼';
+    color: #333;
+}
+
+
+#portfolio-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.price-up { color: #e74c3c; }
+.price-down { color: #3498db; }
+.price-even { color: #333; }
+
+.delete-btn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #c0392b;
+}
+
+/* --- 종목 정보 페이지 (info.html) 스타일 --- */
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+#search-input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#duration-input {
+    width: 80px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#stock-info-container.hidden, #loading-indicator.hidden {
+    display: none;
+}
+
+.info-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info-header h2 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.chart-container {
+    position: relative;
+    height: 700px;
+    margin-bottom: 30px;
+}
+
+.details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    text-align: center;
+}
+
+.detail-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.detail-item .label {
+    display: block;
+    font-size: 1em;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+.detail-item .value {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+#loading-indicator {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2em;
+    color: #7f8c8d;
+}
+
+.stock-link {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.stock-link:hover {
+    text-decoration: underline;
+    color: #3498db;
+}

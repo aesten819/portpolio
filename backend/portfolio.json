@@ -1,0 +1,200 @@
+[
+    {
+        "change": 3350,
+        "industry": "바이오",
+        "name": "코오롱티슈진",
+        "price": 49650,
+        "rate": 9.845132743362832,
+        "shares": 25,
+        "ticker": "950160"
+    },
+    {
+        "change": 1110,
+        "industry": "반도체",
+        "name": "마이크로컨텍솔",
+        "price": 18760,
+        "rate": 3.933518005540166,
+        "shares": 60,
+        "ticker": "098120"
+    },
+    {
+        "change": -3000,
+        "industry": "산업재",
+        "name": "LIG넥스원",
+        "price": 504000,
+        "rate": 0.19880715705765406,
+        "shares": 2,
+        "ticker": "079550"
+    },
+    {
+        "change": 2000,
+        "industry": "산업재",
+        "name": "한화에어로스페이스",
+        "price": 1002000,
+        "rate": -0.2985074626865672,
+        "shares": 1,
+        "ticker": "012450"
+    },
+    {
+        "change": -3200,
+        "industry": "산업재",
+        "name": "SNT에너지",
+        "price": 59800,
+        "rate": -6.708268330733229,
+        "shares": 16,
+        "ticker": "100840"
+    },
+    {
+        "change": -1050,
+        "industry": "반도체",
+        "name": "리노공업",
+        "price": 49050,
+        "rate": -1.30784708249497,
+        "shares": 19,
+        "ticker": "058470"
+    },
+    {
+        "change": -11000,
+        "industry": "바이오",
+        "name": "펩트론",
+        "price": 307000,
+        "rate": -1.2861736334405145,
+        "shares": 3,
+        "ticker": "087010"
+    },
+    {
+        "change": -200,
+        "industry": "소비재",
+        "name": "SAMG엔터",
+        "price": 54800,
+        "rate": 0.7352941176470588,
+        "shares": 16,
+        "ticker": "419530"
+    },
+    {
+        "change": -400,
+        "industry": "산업재",
+        "name": "지엔씨에너지",
+        "price": 35000,
+        "rate": -1.5471167369901548,
+        "shares": 25,
+        "ticker": "119850"
+    },
+    {
+        "change": -3300,
+        "industry": "반도체",
+        "name": "이수페타시스",
+        "price": 71900,
+        "rate": -3.6193029490616624,
+        "shares": 12,
+        "ticker": "007660"
+    },
+    {
+        "change": 0,
+        "industry": "산업재",
+        "name": "현대로템",
+        "price": 215000,
+        "rate": 1.1764705882352942,
+        "shares": 4,
+        "ticker": "064350"
+    },
+    {
+        "change": 3600,
+        "industry": "바이오",
+        "name": "인투셀",
+        "price": 38600,
+        "rate": 10.285714285714285,
+        "shares": 21,
+        "ticker": "287840"
+    },
+    {
+        "change": -1100,
+        "industry": "바이오",
+        "name": "디앤디파마텍",
+        "price": 160000,
+        "rate": -0.43559427504667086,
+        "shares": 5,
+        "ticker": "347850"
+    },
+    {
+        "change": 2800,
+        "industry": "산업재",
+        "name": "SNT다이내믹스",
+        "price": 62600,
+        "rate": 4.857621440536013,
+        "shares": 12,
+        "ticker": "003570"
+    },
+    {
+        "change": -2200,
+        "industry": "기타",
+        "name": "넥스트바이오메디컬",
+        "price": 76600,
+        "rate": -2.420382165605096,
+        "shares": 9,
+        "ticker": "389650"
+    },
+    {
+        "change": -1100,
+        "industry": "바이오",
+        "name": "에이비엘바이오",
+        "price": 105300,
+        "rate": -0.09487666034155598,
+        "shares": 6,
+        "ticker": "298380"
+    },
+    {
+        "change": -900,
+        "industry": "바이오",
+        "name": "리가켐바이오",
+        "price": 154400,
+        "rate": 0.1946787800129786,
+        "shares": 4,
+        "ticker": "141080"
+    },
+    {
+        "change": -700,
+        "industry": "기타",
+        "name": "LS마린솔루션",
+        "price": 23850,
+        "rate": -1.6494845360824744,
+        "shares": 25,
+        "ticker": "060370"
+    },
+    {
+        "change": -850,
+        "industry": "산업재",
+        "name": "비에이치아이",
+        "price": 49150,
+        "rate": -3.43811394891945,
+        "shares": 12,
+        "ticker": "083650"
+    },
+    {
+        "change": 1200,
+        "industry": "기타",
+        "name": "SK오션플랜트",
+        "price": 30300,
+        "rate": 4.123711340206185,
+        "shares": 19,
+        "ticker": "100090"
+    },
+    {
+        "change": -2000,
+        "industry": "산업재",
+        "name": "STX엔진",
+        "price": 45300,
+        "rate": -3.6170212765957444,
+        "shares": 12,
+        "ticker": "077970"
+    },
+    {
+        "change": 1700,
+        "industry": "기타",
+        "name": "토모큐브",
+        "price": 47000,
+        "rate": 3.7527593818984544,
+        "shares": 10,
+        "ticker": "475960"
+    }
+]
